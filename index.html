@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>callBablo Homepage</title>
+    <link rel="stylesheet" href="homestyle.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+</head>
+<body>
+    <header>
+        <div class="header" id="header">
+            <a href="#home" class="logo"><span>call</span>Bablo</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="notestrides.html">Notestrides</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><img src="img/apple-touch-icon.png" alt="Logo" height="25px" href="notestrides.html"></li>
+                </ul>
+            </nav>
+            <nav class="mobile-nav" id="mobile-nav">
+                <div id="myLinks">
+                  <a href="index.html"><ion-icon name="home"></ion-icon></a>
+                  <a href="porfolio.html"><ion-icon name="briefcase"></ion-icon></a>
+                  <a href="about.html"><ion-icon name="person"></ion-icon></a>
+                  <a href="notestrides.html"><ion-icon name="book"></ion-icon></a>
+                  <a href="contact.html"><ion-icon name="chatbubbles"></ion-icon></a>
+                  
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <img src="img/apple-touch-icon.png" alt="Logo" height="25px">
+                </a>
+            </nav>
+        </div> 
+    </header>
+    <div class="ontop-main" id="ontop-main">
+        <div>
+            <p>
+                <span>WELCOME TO MY WEBSITE!</span><br> 
+                To check out my previous works? <br>
+                Click any button below <br>   
+            <button class="button button1">Website Developer</button>
+            <button class="button button1">UI/UX Designer</button>
+            <button class="button button1">Graphics Designer</button>
+            <button class="button button1">Project Manager</button>
+            <button class="button button1">Mobile Photographer</button>
+            </p>
+        </div>
+    </div>
+    <div class="home" id="home">
+        <img src="img/home1s.jpg" alt="home image" class="mobile-home">
+        <img src="img/home2.jpg" alt="home image" class="desktop-home">
+        <div class="home-text">
+            <p>Welcome,<br>
+            I am DAVID BABLO</p>
+            <br>
+            <h1 class="typing">I am a <span class="auto-input"></span></h1>
+            <p>READY TO START A PROJECT?</p>
+            <button class="button button2">Portfolio</button>
+            <button class="button button3">CONTACT ME</button>
+        </div>
+    </div>
+    
+    <div class="main-content">
+        <div class="text-area">
+        <h2>Notestrides Quotes</h2>
+        <span class="quote">"Life is what happens when you're busy making other plans"</span>
+        </div>
+        <div class="writer">John Lennon</div>
+        <div class="button-area">  
+        <div class="btn">
+            <button id="Qbtn" class="button button1">New Quotes</button>
+            <button class="button button4" href="google.com">Visit Notestrides</button>
+        </div>
+        </div> 
+    </div>
+    
+    
+    
+    <script src="homemain.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed= new Typed(".auto-input", {
+            strings:["Website Designer", "Website Developer", "UI/UX Designer", "Graphics Designer", "Mobile Photographer", "Project Manager","Builder (GMNIOB)"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+</body>
+</html>
