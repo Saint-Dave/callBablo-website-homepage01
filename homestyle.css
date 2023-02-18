@@ -6,7 +6,7 @@ Google Fonts
 Base
 ---------------------------------------- */
 :root{
-    --main-bg-color: #000000;
+    --main-bg-color: #300000;
 }
 body{
     background-color: var(--main-bg-color);
@@ -45,14 +45,14 @@ body{
   .button2{
     background-color: white; 
     color: black; 
-    border: 2px solid #800000;
+    border: 2px solid #300000;
   }
   .button2:hover {
-    background-color: #800000;
+    background-color: #300000;
     color: white;
   }
   .button3 {
-    background-color: #800000;
+    background-color: #300000;
     color: white;
   }
   .button4 {
@@ -212,7 +212,7 @@ Main Home
     font-size: 64px;
     font-weight: 700;
     line-height: 56px;
-    color: #800000;
+    color: #300000;
     position: relative;
   }
 .home p {
@@ -223,7 +223,7 @@ Main Home
     position: relative;
   }
 .home p span {
-    color: #800000;
+    color: #300000;
     letter-spacing: 1px;
     font-weight: 900;
   }
